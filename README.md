@@ -5,10 +5,10 @@ The ERA5 data of TX1day temperature from [https://doi.org/10.3929/ethz-b-0005711
 
 ## Code
 - "***func.R***": Build functions to implement the regression analysis for differential operators.
-- "***simu.R***": Perform simulation studies under different settings.
+- "***simu.R***" and "***simu_np.R***": Perform simulation studies under different settings.
 - "***real.R***": Perform real data analysis.
 
 ## Workflow
 First of all, make sure that "***func.R***" is in the working directory.
-- Simulation: Run "***simu.R***".
+- Simulation: Run "***simu.R***" and "***simu_np.R***".
 - Real data example: Run "***real.R***".
